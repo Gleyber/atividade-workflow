@@ -1,0 +1,27 @@
+{
+  "name": "curso",
+  "description": "aula de workflow do Keven",
+  "main": "index.js",
+  "authors": [
+    "Gleyber"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "curso",
+    "aula",
+    "keven",
+    "Gleyber",
+    "Bootstrap"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

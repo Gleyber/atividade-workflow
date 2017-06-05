@@ -1,0 +1,28 @@
+{
+  "name": "curso",
+  "version": "1.0.0",
+  "description": "aula de workflow do Keven",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "curso",
+    "aula",
+    "keven",
+    "Gleyber",
+    "Bootstrap"
+  ],
+  "author": "Gleyber",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "boostrap": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.4.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "jquery": "^3.2.1"
+  }
+}

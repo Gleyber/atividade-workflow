@@ -1,0 +1,17 @@
+nav {
+   display: block;
+   li {
+      display: inline-block;
+      position: relative
+      a {
+         display: block;
+         padding: 5px;
+         text-decoration: none;
+      }
+      ul {
+         display: none;
+         position: absolute;
+         top: 100%;
+      }
+   }
+}
