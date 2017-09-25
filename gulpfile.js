@@ -24,12 +24,6 @@ gulp.task('minimiza-html', function() {
 });
 
 gulp.task('monitora',function(){
-   return watch(origemHtml, { ignoreInitial: false })
-    .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(gulp.dest(destinoHtml));
-
-   return watch(origemScss, { ignoreInitial: false })
-    .pipe(compile().on("error",compile.logError))
-    .pipe(zip({compatibility: '*'}))
-    .pipe(gulp.dest(destinoScss));
+   gulp.watch(origemScss, ['compila-sass']);
+   gulp.watch(origemHtml, ['minimiza-html']);
 });
