@@ -2,7 +2,6 @@ var gulp = require("gulp");
 var cleanCss = require('gulp-clean-css');
 var sass = require('gulp-sass');
 var htmlmin = require('gulp-htmlmin');
-var watch = require('gulp-watch');
 
 
 var origemScss = "./source/scss/*.scss";
@@ -18,7 +17,7 @@ gulp.task("compila-sass", function() {
     .pipe(gulp.dest(destinoScss));
 });
 
-gulp.task('minimiza', function() {
+gulp.task('minimiza-html', function() {
   return gulp.src(origemHtml)
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest(destinoHtml));
